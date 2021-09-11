@@ -1,0 +1,352 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title-task {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+/* OnlinerNews */
+
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 10px;
+  width: 360px;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-image: url("../src/components/OnlinerNews/background.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-rubric {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rubric {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 17px;
+  background-color: #ffea00;
+  
+}
+
+.rubric-title {
+  font-size: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;    
+  background-size: contain;
+  background-image: url("../src/components/OnlinerNews/comment.png");
+  background-repeat: no-repeat, repeat;
+  /*background-position: center; */
+}
+
+.count {
+  margin-top: 4.8px;
+  font-size: 11px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffea00;
+}
+
+.title {
+  margin: 0px;
+  margin-left: 10px;
+  width: 310px;
+  text-align: left;
+  font-size: 17px;
+  line-height: 1;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff; 
+}
+
+/* TASK 3 */
+
+.vacancy-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 850px;
+  height: 150px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.vacancy-title {
+  margin: 0px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 18px;
+  color: #2998ff;
+}
+
+.vacancy-company {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company-name {
+  margin: 0px;
+  margin-right: 4px;
+  text-align: left;
+  font-size: 12px;
+  color: #999999;
+}
+
+.vacancy-geo {
+  margin: 0px;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 12px;
+  color: #999999;
+}
+
+.vacancy-discription {
+  margin: 0px;
+  text-align: left;
+  font-size: 14px;
+  color: #333333;
+}
+
+.vacancy-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.vacancy-button {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #1e88e5;
+  background-color: #1e88e5;
+}
+
+.vacancy-date {
+  margin: 0px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* TASK 4 */
+
+.instagram-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 602px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.instagram-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.header-avatar{
+  width: 42px;
+  height: 42px;
+}
+
+.header-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px; 
+  margin-right: 370px;
+}
+
+.header-name {
+  margin: 0px;
+  margin-bottom: 3px;
+  text-align: left;
+  font-size: 14px;
+  color: #262626;
+}
+
+.header-geo {
+  margin: 0px;
+  text-align: left;
+  font-size: 12px;
+  color: #262626;
+}
+
+.header-menu {
+  width: 16px;
+  height: 16px;
+}
+
+.instagram-photo {
+  width: 600px;
+  height: 600px;
+}
+
+.instagram-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  padding: 0px 16px;
+}
+
+.active-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+.action-like, .action-message, .action-fly, .action-marker {
+  width: 24px;
+  height: 24px;
+}
+
+.action-numb {
+  width: 24px;
+  margin-left: 150px;
+  margin-right: 250px;
+}
+
+.instagram-likes {
+  margin: 5px 0px 5px 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #262626;
+}
+
+.instaram-about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.about-user {
+  margin: 0px 0px 3px 5px;
+  text-align: left;
+  font-size: 14px;
+  color: #262626; 
+}
+
+.about-yet {
+  margin: 0px 0px 3px 5px;
+  text-align: left;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.instagram-date {
+  margin: 10px 0px 10px 16px;
+  text-align: left;
+  font-size: 10px;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.instagram-comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 16px 15px 16px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.comment-smile {
+  width: 24px;
+  height: 24px;
+}
+
+.comment-user {
+  margin: 0px;
+  margin-left: 17px;
+  text-align: left;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.comment-publish {
+  margin: 0px;
+  margin-left: 270px;
+  text-align: left;
+  font-size: 14px;
+  color: #0095f6;
+  opacity: 0.5;
+}
